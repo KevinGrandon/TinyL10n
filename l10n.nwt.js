@@ -10,7 +10,7 @@
 		var val = dict[key]
 		// Only run the regex on strings that may contain tags
 		if (val.indexOf('{{') !== -1) {
-			val.replace(tagMatcher, function(match, property) {
+			val = val.replace(tagMatcher, function(match, property) {
 				return data[property]
 			});
 		}
