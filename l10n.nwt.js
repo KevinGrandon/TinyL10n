@@ -1,5 +1,5 @@
 (function() {
-	var dict = false, tagMatcher = /\{\{([^}]+)\}\}/g;
+	var dict = false, tagMatcher = /\{\{([^}]+)\}\}/g
 
 	n.io('/locale/' + navigator.language + '.json').success(function (o) {
 		dict = o.obj
@@ -8,7 +8,6 @@
 
 	window._ = function(key, data) {
 		var val = dict[key]
-
 		// Only run the regex on strings that may contain tags
 		if (val.indexOf('{{') !== -1) {
 			val.replace(tagMatcher, function(match, property) {

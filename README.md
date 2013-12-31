@@ -3,7 +3,8 @@ TinyL10n
 
 TinyL10n is a super-lightweight library for client side localization. It may be lacking a lot of features that well-established frameworks have, but it does what I need it to do.
 
-Usage:
+**Usage:**
+
 index.html
 ```
 <html>
@@ -24,7 +25,6 @@ in locale/en-US.json:
 
 app.js:
 ```
-// In your app.js:
 l10n.ready(function() {
 	alert(_('greeting', {name: 'bob'})) // alerts "Hello Bob"
 })
