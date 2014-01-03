@@ -1,0 +1,25 @@
+{
+  "name": "tiny-l10n",
+  "description": "TinyL10n is a lightweight library for client side localization in javascript. It's would be fairly trivial to add Node.js adapters to this if you need server-side translations.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kevingrandon/TinyL10n",
+  "author": {
+    "name": "Kevin Grandon",
+    "email": "kevingrandon@yahoo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kevingrandon/TinyL10n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevingrandon/TinyL10n/issues"
+  },
+  "licenses": [
+    {
+      "type": "MPL"
+    }
+  ],
+  "main": "l10n.min.js",
+  "keywords": [],
+  "readmeFilename": "README.md"
+}
